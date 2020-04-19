@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HTML</string>
+    <string name="title_activity_main">MAIN_ACTIVITY</string>
+    <string-array name="sh">
+    <item>javascript</item>
+    <item>html</item>
+    </string-array>
+</resources>

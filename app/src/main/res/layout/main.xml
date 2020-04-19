@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+   android:background="#000"
+   android:orientation="vertical"
+   android:layout_gravity="center"
+   
+   android:paddingTop="250dp" android:layout_height="match_parent">
+    
+   
+
+       <Button 
+       android:layout_width="400dp"
+       android:layout_height="100dp"
+       android:text="Html compiler"
+       android:textSize="50dp"
+       android:onClick="sp"/>
+       
+       <Button 
+       android:layout_width="400dp"
+       android:layout_height="100dp"
+       
+       android:textSize="50dp"
+
+       
+       android:text="Html ("")tutorial"
+       android:onClick="sk"/>
+       
+</LinearLayout>

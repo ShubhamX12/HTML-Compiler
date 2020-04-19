@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<EditText
+        android:id="@+id/t1"
+       android:background="#000"
+    android:textColor="#fff" android:layout_width="match_parent"
+        android:layout_height="300dp"
+       android:gravity="top"
+        
+        android:text="Hello world" />
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <Button
+        
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="sl"
+        android:text="html" />
+        
+        <Button
+        
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="sl"
+        android:text="javascript" />
+        </LinearLayout>
+      <Button
+        
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="ss"
+        android:text="run" />
+        
+    <WebView
+    android:background="#000"
+    android:textColor="#fff"
+        android:id="@+id/t"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:gravity="center"
+        android:text="Hello world" />
+</LinearLayout>
