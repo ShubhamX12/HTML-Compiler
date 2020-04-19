@@ -1,2 +1,2 @@
 # HTML-Compiler
-This app use for Html and javascript compiler and tutorials.
+This android application is used to compile HTML and Javascript codes.
